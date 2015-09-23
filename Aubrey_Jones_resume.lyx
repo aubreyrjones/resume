@@ -1,0 +1,342 @@
+#LyX 2.0 created this file. For more info see http://www.lyx.org/
+\lyxformat 413
+\begin_document
+\begin_header
+\textclass simplecv
+\begin_preamble
+\usepackage{multicol}
+\usepackage[top=2cm, bottom=2cm, left=4cm , right=4cm]{geometry}
+\end_preamble
+\use_default_options true
+\maintain_unincluded_children false
+\language english
+\language_package default
+\inputencoding auto
+\fontencoding global
+\font_roman default
+\font_sans default
+\font_typewriter default
+\font_default_family default
+\use_non_tex_fonts false
+\font_sc false
+\font_osf false
+\font_sf_scale 100
+\font_tt_scale 100
+
+\graphics default
+\default_output_format default
+\output_sync 0
+\bibtex_command default
+\index_command default
+\paperfontsize default
+\spacing single
+\use_hyperref false
+\papersize default
+\use_geometry false
+\use_amsmath 1
+\use_esint 1
+\use_mhchem 1
+\use_mathdots 1
+\cite_engine basic
+\use_bibtopic false
+\use_indices false
+\paperorientation portrait
+\suppress_date false
+\use_refstyle 1
+\index Index
+\shortcut idx
+\color #008000
+\end_index
+\secnumdepth 0
+\tocdepth -1
+\paragraph_separation indent
+\paragraph_indentation default
+\quotes_language english
+\papercolumns 1
+\papersides 1
+\paperpagestyle default
+\tracking_changes false
+\output_changes false
+\html_math_output 0
+\html_css_as_file 0
+\html_be_strict false
+\end_header
+
+\begin_body
+
+\begin_layout Standard
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+thispagestyle{empty}
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Right Header
+Aubrey R.
+ Jones
+\begin_inset Newline newline
+\end_inset
+
+(720) 514-9940
+\begin_inset Newline newline
+\end_inset
+
+aubrey@greyhelix.com
+\begin_inset Newline newline
+\end_inset
+
+1204 W Stuart St Apt 179
+\begin_inset Newline newline
+\end_inset
+
+Fort Collins, CO 80526
+\end_layout
+
+\begin_layout Standard
+\begin_inset CommandInset line
+LatexCommand rule
+offset "0.5ex"
+width "100col%"
+height "4pt"
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Section
+Technical Proficiencies
+\end_layout
+
+\begin_layout Itemize
+Programming: C, C++11, GLSL, Java, Ruby, Python
+\end_layout
+
+\begin_layout Itemize
+Optimization: general purpose GPU, profiling, instrumentation, multi-threading,
+ asynchronous programming, lockfree programming, data-parallel programming
+\end_layout
+
+\begin_layout Itemize
+Algorithm Design: rendering and graphics, dynamic systems, computational
+ geometry, image processing, spatial indexing, domain specific languages,
+ real time data visualization
+\end_layout
+
+\begin_layout Itemize
+Software Architecture: soft real time, distributed systems, distributed
+ computation, n-tier systems, OTS engineering, advanced object models, meta-prog
+ramming
+\end_layout
+
+\begin_layout Itemize
+Simulation Design: particle systems, fluids, spring-mass systems, n-body
+ systems, rigid body dynamics, inverse kinematics
+\end_layout
+
+\begin_layout Itemize
+Tools: Linux, bash, git, svn, gcc, icc, clang, SCons, cmake, libruby, libpython,
+ jruby, eclipse, netbeans, Visual Studio
+\end_layout
+
+\begin_layout Itemize
+Packages: OpenGL, OpenGL ES, OpenCL, Qt 5, QML, Boost, GLM, sqlite3, slurm,
+ Kakadu JPEG2000, Terathon C4, RAD Telemetry, JMonkeyEngine, Eigen, AspectJ,
+ redis, protocol buffers, OrientDB
+\end_layout
+
+\begin_layout Section
+Managerial Proficiencies
+\end_layout
+
+\begin_layout Itemize
+Team Leadership: recruitment, training, organization, direction, inspiration,
+ oversight
+\end_layout
+
+\begin_layout Itemize
+Product Management: design and architecture, needs analysis, evolution planning,
+ QA management, documentation of requirements, spec, design and usage
+\end_layout
+
+\begin_layout Itemize
+Project Management: planning, budgeting, scheduling, critical path analysis
+\end_layout
+
+\begin_layout Itemize
+Interdisciplinary Communication: artists, scientists, non-technical stakeholders
+\end_layout
+
+\begin_layout Section
+Recent Positions
+\end_layout
+
+\begin_layout Itemize
+Software Product Manager: Flagship Biosciences, Inc.
+ - Westminster, CO (June 2014 - Present)
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+Design real-time imaging algorithms and network transport for multi-gigabyte,
+ n-channel medical imagery.
+\end_layout
+
+\begin_layout Itemize
+Implement imaging algorithms in C++ and GLSL for CPU, GPU (on Windows and
+ Linux) and distributed cluster execution (on Linux).
+\end_layout
+
+\begin_layout Itemize
+Implement multiple C, C++, and Python 
+\begin_inset Quotes eld
+\end_inset
+
+glue
+\begin_inset Quotes erd
+\end_inset
+
+ components between OTS systems, including distributed cross-platform file
+ access layer.
+\end_layout
+
+\begin_layout Itemize
+Design, document, and maintain repeatable, cross-platform automated build.
+\end_layout
+
+\begin_layout Itemize
+Specify and architect distributed multi-user image retrieval, processing,
+ and analysis system.
+\end_layout
+
+\begin_layout Itemize
+Specify and architect high-performance CPU+GPU cluster environment for massively
+ parallel image analysis.
+\end_layout
+
+\begin_layout Itemize
+Interface with non-technical stakeholders (scientists, executives, users)
+ to determine UX and business requirements.
+\end_layout
+
+\begin_layout Itemize
+Oversee product and project development, including recruitment and supervision
+ of engineering and quality assurance staff.
+\end_layout
+
+\end_deeper
+\begin_layout Itemize
+Technical Director & Chief Engineer: Hit the Sticks, LLC - Devon, PA (July
+ 2010 - January 2014)
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+Design, develop, and implement real-time graphics, physics, particle, and
+ special effects algorithms.
+\end_layout
+
+\begin_layout Itemize
+Design, develop, and implement repeatable cross-platform builds.
+\end_layout
+
+\begin_layout Itemize
+Collaborate with artists on design of game world, assets, UI, sound, music,
+ etc.
+\end_layout
+
+\begin_layout Itemize
+Provide technical training and guidance to art staff.
+\end_layout
+
+\begin_layout Itemize
+Write backstory, dialog, and narrative (see 
+\begin_inset Quotes eld
+\end_inset
+
+Education
+\begin_inset Quotes erd
+\end_inset
+
+ below).
+\end_layout
+
+\begin_layout Itemize
+Developed realtime, multithreaded 3D fluid dynamics simulation (in Java!).
+\end_layout
+
+\begin_layout Itemize
+Developed realtime Jacobian inverse-kinematics.
+\end_layout
+
+\begin_layout Itemize
+Developed and released two commercial 3D desktop computer games.
+\end_layout
+
+\begin_layout Itemize
+Direct an 8-person multi-disciplinary team of engineers, artists, sound
+ artists, and QA staff.
+\end_layout
+
+\end_deeper
+\begin_layout Itemize
+Owner: Grey Helix, LLC - Indianola, WA (June 2008 - July 2010)
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+Contract work for games and video distribution industries.
+\end_layout
+
+\end_deeper
+\begin_layout Itemize
+Software Engineer: Lightning Gaming, Inc - Aston, PA (February 2007 - May
+ 2008)
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+Work with team on maintaining and improving large codebase for casino gambling
+ product.
+\end_layout
+
+\begin_layout Itemize
+Innovate new graphical capabilties and integrate with legacy codebase.
+\end_layout
+
+\begin_layout Itemize
+Responsible for internationalization and localization, including internationaliz
+ation of legacy codebase.
+\end_layout
+
+\end_deeper
+\begin_layout Section
+Education
+\end_layout
+
+\begin_layout Itemize
+Temple University (PhD program) - Philadelphia, PA - no degree awarded (2006-200
+7)
+\end_layout
+
+\begin_layout Itemize
+Temple University - Philadelphia, PA - Bachelor of Science, Computer and
+ Information Science (2003-2006)
+\end_layout
+
+\begin_layout Itemize
+University of the Arts - Philadelphia, PA - no degree, Writing for Film
+ and Television (2001-2003)
+\end_layout
+
+\end_body
+\end_document
